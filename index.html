@@ -1,0 +1,378 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4">
+
+    </script>
+    <title>tailwindcss</title>
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Rowdies:wght@300;400;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Sarina&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Saira:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+   
+    <script>tailwind.config={theme:{extend:{fontFamily:{righteous:["Righteous", 'sans-serif'],}}}</script>
+     <script>tailwind.config={theme:{extend:{fontFamily:{saira:["Saira", 'sans-serif'],}}}</script>
+      <script>tailwind.config={theme:{extend:{fontFamily:{rowdies:["Rowdies", 'sans-serif'],}}}</script>
+
+  </head>
+  <body class="flex flex-col font-['Righteous'] text-xl">
+  
+   <nav class="flex justify-between mx-15 p-3 text-base">
+    <img class="w-30 flex-initial" src="assets/hero.svg" alt="herosvg">
+    <ul class="flex  items-center gap-5 ml-30 ">
+      <li>Home</li>
+      <li>About</li>
+      <li>Courses</li>
+      <li>Contact</li>
+      </ul>
+     <div class="flex items-center gap-5">
+      <img class="w-5" src="assets/Vector (10).svg" alt="navimg">
+      <img class="w-5" src="assets/nav3.svg" alt="navimg">
+      <img class="w-5" src="assets/nav2.svg" alt="navimg">
+      </div>
+      <div class="flex m-5 text-base font-normal font-['saira'] ">
+        <button class="mx-4  p-2 text-gray-700 underline underline-offset-2">Login</button>
+        <button class=" p-2 bg-linear-to-r/srgb from-blue-800 to-violet-500 w-25 text-white rounded-md">Signup</button>
+        </div>
+    </nav>
+    <header class="flex  flex-nowrap bg-linear-to-t from-violet-600 to-blue-900 relative text-white">
+       <!-- Right side glow -->
+        <div class="absolute right-0 top-3/5 -translate-y-1/2  w-[500px] h-[500px]  bg-white/100 rounded-full blur-[70px]"></div>
+        <div class="mx-18 p-3 flex justify-between">
+      <div class="w-190 my-20 flex flex-col">
+        <h5 class="text-[18px] tracking-[1px] font-[2px] mb-2 ">Successful coaches are visionaries</h5>
+        <h1 class=" text-5xl font-medium my-5 leading-tight">Good <span class="text-blue-700">coaching </span> is good teaching & nothing else.</h1>
+        <div class="flex my-2">
+          <button class="text-xs px-6 py-3 m-2  rounded-lg border-2">View Courses</button>
+          <button class="text-sm  m-2" >Get Free Consultation</button>
+          </div>
+          <div class=" flex flex-row text-[10px] ">
+            <div class="bg-size-[180] text-gray-600 w-80 bg-white flex flex-row p-2 rounded-lg  justify-between  ">
+            <p class="justify-center items-center gap-2 py-2 px-3">What do you want to learn today?</p>
+            <button class="flex flex-row justify-center items-center py-2 gap-2 bg-linear-to-r/srgb from-blue-800 to-violet-500 w-25 text-white rounded-md ">
+              <img class="w-3 text-white" src="assets/nav2.svg" alt="Search">
+              Search</button>
+          </div>
+            </div>
+        </div>
+        <div class="z-10 w-80 flex text-sm my-30 ">
+          <img class="h-auto w-5 mr-3 self-start my-4" src="assets/HEROBAR.svg" alt="bar">
+          <div>
+            <h6 class="my-2">Shyam</h6>
+            <p class="text-xs gap-2">In a coaching role, you ask the questions and rely more on your staff, who become the experts, to provide the information.</p>
+            <p class="text-xs text-blue-500 py-2">4.9</p>
+            </div>
+          </div>
+          <img class="z-10 mr-4" src="assets/queenimg.png" alt="img">
+          </div>
+          <div>
+    <img class="absolute top-105 left-115 w-55 " src="assets/Rectangle 8674.svg" alt="">
+    <img class="absolute top-110 left-120 w-45 h-auto" src="assets/Rectangle 8675.svg" alt="">
+    <img class="absolute top-115 left-125 w-35 h-auto" src="assets/Rectangle 8673.svg" alt="">
+    </div>
+      </header>
+       <main class=" bg-linear-to-t from-violet-500 to-blue-800 z-10 relative ">
+    <div class="mx-18 p-3 my-4 flex justify-between">
+    <img class="w-30" src="assets/spotify.svg" alt="spotify">
+    <img class="w-25" src="assets/amazon.svg" alt="amazon">
+    <img class="w-30" src="assets/spotify.svg" alt="spotify">
+    <img class="w-20" src="assets/cisco.svg" alt="cisco">
+    <img class="w-20" src="assets/logit.svg" alt="logit">
+    <img class="w-25" src="assets/amazon.svg" alt="amazon">
+    </div>
+        <div class="absolute right-4 top-1/2 -translate-y-1/2  w-[350px] h-[100px]  bg-white/100 rounded-full blur-[70px]"></div>
+
+    </main>
+    <section class=" bg-linear-to-t from-sky-100 to-gray-50 relative ">
+      <div class="flex flex-col mx-18 p-3 mt-18 mb-10 font-['saira']  text-lg">
+        <div class="flex flex-col my-5 justify-items-center  ">
+          <h3 class="self-center font-['Rowdies'] text-3xl text-gray-800">Featured  <span class="text-blue-500">Course</span></h3>
+          <h5 class="self-center  font-['Righteous'] text-xl font-light tracking-[.11em]">The feature courses are we invented our teaching part</h5>
+          </div>
+          <div class="flex flex-col my-8  text-xl font-semibold text-gray-800">
+            <div class="flex justify-between my-5" >
+              <div class="flex-1/3 mx-5 bg bg-white text-base rounded-lg">
+                 <img src="assets/Mask group.png" alt="img1">
+                 <div class=" flex justify-between mx-5 my-5 text-xs  text-gray-500">
+                  <p>1,957 Students</p>
+                  <p>01h 59m</p>
+                  </div>
+                  <h6 class=" mx-5 my-5">Motion Graphics: Create a Nice Typography Animation</h6>
+                  <div class=" flex justify-between mx-5 my-5" >
+                    <h6>Rs.499</h6>
+                    <img src="assets/nav1.svg" alt="shop">
+                    </div>
+                </div>
+              <div class="flex-1/3 bg-white text-base rounded-lg">
+                 <img src="assets/Mask group (1).png" alt="img2">
+                 <div class=" flex justify-between mx-5 my-5 text-xs  text-gray-500">
+                  <p>9,575 Students</p>
+                  <p>01h 59m</p>
+                  </div>
+                  <h6 class=" mx-5 my-5">Advance PHP knowledge with JS to make smart web</h6>
+                  <div class=" flex justify-between mx-5 my-5">
+                    <h6>Rs.499</h6>
+                    <img src="assets/nav1.svg" alt="shop">
+                    </div>
+                </div>
+              <div class="flex-1/3 mx-5 bg-white  text-base rounded-lg">
+                 <img src="assets/Mask group (2).png" alt="img3">
+                 <div  class=" flex justify-between mx-5 my-5 text-xs  text-gray-500">
+                  <p>2957 Students</p>
+                  <p>02h 49m</p>
+                  </div>
+                  <h6 class=" mx-5 my-5">Education Software and PHP and JS System Script</h6>
+                  <div class=" flex justify-between mx-5 my-5">
+                    <h6>Rs.499</h6>
+                    <img src="assets/nav1.svg" alt="shop">
+                    </div>
+                </div>
+             </div>
+            <div class="flex justify-between my-5">
+              <div class="flex-1/3 mx-5 bg-white  text-base rounded-lg">
+                 <img src="assets/Mask group (3).png" alt="img4">
+                 <div class=" flex justify-between mx-5 my-5 text-xs  text-gray-500">
+                  <p>5,457 Students</p>
+                  <p>01h 49m</p>
+                  </div>
+                  <h6 class=" mx-5 my-5">The Complete Financial Analyst Training & Investing</h6>
+                  <div class=" flex justify-between mx-5 my-5">
+                    <h6>Rs.499</h6>
+                    <img src="assets/nav1.svg" alt="shop">
+                    </div>
+                </div>
+              <div class="flex-1/3 mx-5 bg-white  text-base rounded-lg">
+                 <img src="assets/Mask group (4).png" alt="img2">
+                 <div class=" flex justify-between mx-5 my-5 text-xs  text-gray-500">
+                  <p>595 Students</p>
+                  <p>01h 49m</p>
+                  </div>
+                  <h6 class=" mx-5 my-5">Marketing 2023: Complete Guide To Instagram Growth</h6>
+                  <div class=" flex justify-between mx-5 my-5">
+                    <h6>Rs.499</h6>
+                    <img src="assets/nav1.svg" alt="shop">
+                    </div>
+                </div>
+              <div class="flex-1/3 mx-5 bg-white  text-base rounded-lg">
+                 <img src="assets/Mask group (5).png" alt="img1">
+                 <div class=" flex justify-between mx-5 my-5 text-xs  text-gray-500">
+                  <p>458 Students</p>
+                  <p>03h 00m</p>
+                  </div>
+                  <h6 class=" mx-5 my-5">Learn 3D Modelling and Design for Beginners</h6>
+                  <div class=" flex justify-between mx-5 my-5">
+                    <h6>Rs.499</h6>
+                    <img src="assets/nav1.svg" alt="shop">
+                    </div>
+                </div>
+             </div>
+            </div>
+            <button class=" font-['Righteous'] text-sm p-2 py-3 bg-linear-to-r/srgb from-blue-800 to-violet-500 w-40 text-white rounded-md self-center  ">Explore courses</button>
+           <p class="p-6 m-0  rounded-full outline-12 outline-sky-200 absolute top-25 left-30"></p>
+        </div>
+      </section>
+
+      <section class="bg-linear-to-r from-indigo-400 to-indigo-800  font-['Righteous'] relative">
+        <div class="flex flex-col mx-40 my-25 text-white ">
+          <div class="flex  flex-col  justify-items-center ">
+          <h3 class="self-center font-['Righteous'] text-3xl my-4 ">Why <span class="text-blue-800"> learn</span> with our courses?</h3>
+          <h5 class=" self-center pl-12 font-['Saira'] text-lg font-light ">We are providing the best courses and top classes.And </h5>
+          <h5 class=" self-center pl-12 font-['Saira'] text-lg font-light "> extradinery placement training.....</h5>
+          </div>
+          <div class="flex justify-between mt-20">
+            <div class="mx-8 flex-1/5  flex-col justify-items-center  ">
+              <img class="self-center w-15 my-4" src="assets/WL1.svg" alt="img">
+              <h6 class="self-center my-3 text-base tracking-[.10em]">01. Learn</h6>
+              <p class="text-xs self-start">Learn continually.There is always </p>
+                <p class="text-xs self-center">“one more thing”to learn.</p>
+              </div>
+              <img class="mx-8 h-45 w-auto" src="/assets/dotline.svg" alt="line">
+            <div class="mx-8 flex-1/5 flex-col  justify-items-center ">
+              <img class="self-center w-15 my-4" src="assets/WL2.svg" alt="img">
+              <h6 class="self-center my-3 text-base ">02. Graduate</h6>
+              <p class="text-xs">Be bold,be courageous, </p>
+               <p class="text-xs self-center">be your best.</p>
+              </div>
+              <img class="mx-8  h-45 w-auto " src="/assets/dotline.svg" alt="line">
+            <div class="mx-8 flex-1/5  flex-col  justify-items-center">
+              <img class="self-center w-13 my-4" src="assets/WL3.svg" alt="img">
+              <h6 class="self-center my-3 text-base tracking-[.10em]">03. Work</h6>
+              <p class="text-xs" >Great companies are built in</p>
+              <p class="text-xs" >the office,with hard work </p>
+                  <p class="text-xs self-center">put in by team..</p
+              </div>
+            </div>
+
+          </div>
+          <img class="w-31 h-auto absolute left-0 top-30" src="assets/wl11.svg" alt="ring">
+          <img class="w-33 h-auto absolute left-0 top-27" src="assets/wl22.svg" alt="ring">
+          <img class="w-37 h-auto absolute left-0 top-22" src="assets/wl33.svg" alt="ring">
+           <div class="absolute left-0 top-2/3 -translate-y-1/2  w-[350px] h-[300px]  bg-white/400 rounded-full blur-[70px]"></div>
+        </section>
+   <section class="bg-linear-to-t from-sky-100 to-gray-50">
+    <div class="flex flex-col mx-15 my-8 p-3 text-gray-700">
+       <div class="flex  flex-col  justify-items-center ">
+          <h3 class="self-center font-['Righteous'] text-3xl my-1 ">Top <span class="text-blue-800">Categories</span></h3>   
+          <h5 class=" self-center font-['Righteous'] text-lg font-light text-gray-500 ">100+ unique online course list designs</h5> 
+          </div>
+          <div class="flex justify-between my-20 text-lg ">
+            <div class="flex flex-col justify-center bg-white rounded-lg  ">
+              <img class="p-6 w-30 mx-6 self-center " src="assets/TC1.png" alt="tc1">
+              <h6 class="self-center pt-4 ">Digtal</h6>
+               <h6 class="self-center pb-4 ">Marketing</h6>
+              <p class="self-center pb-4 text-xs text-gray-500 my-2 ">25 Courses</p>
+              </div>
+            <div class="flex flex-col justify-center bg-white rounded-lg  ">
+              <img class="p-6 w-30 mx-6 self-center " src="assets/TC2.png" alt="tc1">
+              <h6  class="self-center pt-4 ">Web</h6>
+               <h6 class="self-center pb-4 ">Development</h6>
+              <p class="self-center pb-4 text-xs text-gray-500 my-2">16 Courses</p>
+              </div>
+            <div class="flex flex-col justify-center bg-white rounded-lg  ">
+              <img class="p-6 w-30 mx-6 self-center "  src="assets/TC3.png" alt="tc1">
+              <h6  class="self-center pt-4">Art </h6>
+              <h6 class="self-center pb-4 ">& Humanities</h6>
+              <p class="self-center pb-4 text-xs text-gray-500 my-2 ">76 Courses</p>
+              </div>
+            <div class="flex flex-col justify-center bg-white rounded-lg  ">
+              <img class="p-6 w-30 mx-6 self-center "   src="assets/TC4.png" alt="tc1">
+              <h6 class="self-center pt-4">Personal</h6>
+              <h6 class="self-center pb-4 ">Development</h6>
+              <p class="self-center pb-4 text-xs text-gray-500 my-2 ">22 Courses</p>
+              </div>
+            <div class="flex flex-col justify-center bg-white rounded-lg  ">
+              <img class="p-6 w-30 mx-6 self-center "  src="assets/TC5.png" alt="tc1">
+              <h6 class="self-center pt-4">IT and</h6>
+              <h6 class="self-center pb-4 "> Software</h6>
+              <p class="self-center pb-4 text-xs text-gray-500 my-2 ">110 Courses</p>
+              </div>
+            <div class="flex flex-col justify-center bg-white rounded-lg  ">
+              <img class="p-6 w-30 mx-6 self-center "  src="assets/TC6.png" alt="tc1">
+              <h6 class="self-center pt-4">Graphic</h6>
+              <h6 class="self-center pb-4 "> Design</h6>
+              <p class="self-center pb-4 text-xs text-gray-500 my-2 ">85 Courses</p>
+              </div>
+            </div>
+      </div>
+    </section>
+
+    <section class="bg-linear-to-t from-sky-100 to-gray-50 font-['Righteous'] relative">
+      <div class="flex my-10 mx-45 flex-col ">
+        <div class="flex bg-gradient-to-r from-indigo-200 via-indigo-300 to-fuchsia-500 rounded-lg text-white my-20 ">
+          <div class="flex-1/5 flex-col px-8 py-10 mx-6  justify-items-end">
+            <img class="w-10 justify-self-start mx-3 " src="assets/SEC6IMG7.png" alt="img1">
+            <img class=" w-10 self-end my-12" src="assets/SEC6IMG4.png" alt="img2">
+            <img class="w-10 justify-self-start mx-3" src="assets/SEC6IMG1.png" alt="img3">
+            </div>
+            <div class="flex-3/5 content-center justify-items-center mx-12 z-10 ">
+              <h2 class="text-3xl   ">Subscribe For Get Update </h2>
+              <h2 class="text-3xl">Every New Courses</h2>
+              <p class="text-[10px] mx-12 my-4">20k+ students daily learn with Eduvi. Subscribe for new courses.</p>
+               <div class="flex text-[8px]  bg-gradient-to-r from-indigo-200 via-indigo-300 to-fuchsia-500 rounded-lg " >
+            <p class="p-3 mr-15" >enter your email</p>
+            <button class="ml-10 px-10 rounded-r-lg bg-blue-700">Search</button>
+          </div>
+              </div>
+              <div class="flex-1/5 flex-col px-8 py-10 mx-6  justify-items-end">
+                <img  class="w-10  mx-3 " src="assets/SEC6IMG2.png" alt="img4">
+                <img  class=" w-10  justify-self-start my-12" src="assets/SEC6IMG3.png" alt="img5">
+                <img class="w-10  mx-3" src="assets/SEC6IMG5.png" alt="">
+                </div>
+                <div>
+                  <img class="absolute left-138 top-35 w-15" src="assets/Polygon 7.svg" alt="angle">
+                  <img class="absolute left-36 top-95 w-15" src="assets/Polygon 7.svg" alt="angle">
+                  <img class="absolute w-15 right-23 top-123" src="assets/Polygon 7.svg" alt="angle">
+                  </div>
+
+          </div>
+
+          <div class="my-20 flex flex-col">
+            <img class="self-center w-200" src="assets/Rectangle 8691.png" alt="image">
+            <img class="w-38 self-center absolute top-183 left-145" src="assets/SEC6IMG6.png" alt="button">
+            <img class="absolute top-220 right-32 w-57" src="assets/sec6img.png" alt="angles">
+            </div>
+
+            <div class="my-16 flex flex-col">
+              <h3 class="self-center text-blue-800 text-3xl">Testimonials</h3>
+              <p class="self-center text-gray-700 text-xl my-8 ">What our student say about us</p>
+              <img class="w-15 absolute left-20" src="assets/off circle.png" alt="">
+              </div>
+       </div>
+       <div class="flex mt-30 mb-20 mx-18 justify-between text-sm text-indigo-300 ">
+       <div class=" mr-30 bg-white pr-15 ">
+        <img class="absolute left-60 top-370 w-10" src="assets/section6las.png" alt="female">
+        <p class="ml-5 my-7 ">Such an amazing traniner and easily understand the entire syllabus, and the guidence will be super and good to the way of explaning.</p>
+        <img  class="mx-4 my-7 " src="assets/star.svg" alt="star">
+        </div>
+       <div class="absolute top-360 left-110 bg-white w-100 h-auto">
+        <p class="mx-5 my-7 ">Such an amazing traniner and easily understand the entire syllabus, and the guidence will be super and good to the way of explaning.</p>
+        <img  class="mx-4 my-7 " src="assets/star.svg" alt="star">
+        </div>
+       <div class=" ml-30 bg-white">
+        <img class="absolute right-60 top-370 w-10" src="assets/section6las.png" alt="female">
+        <p class="ml-15 mr-5 my-7 ">Such an amazing traniner and easily understand the entire syllabus, and the guidence will be super and good to the way of explaning.</p>
+        <img  class="mx-5 my-7 " src="assets/star.svg" alt="star">
+        </div>
+         <img class="absolute left-150 top-353 w-10" src="assets/section6las.png" alt="female">
+        </div>
+        <div class="flex my-5 mx-5 justify-end" >
+          <img class="w-9" src="assets/Arrowl.svg" alt="arrow">
+          <img class="w-9" src="assets/arrowr.svg" alt="arrow">
+          </div>
+      </section>
+    <footer class="bg-linear-65 from-purple-500 to-blue-500">
+      <div class="flex">
+        
+          <div class="flex">
+            <div>
+          <h4>Connect</h4>
+          <img src="assets/hero.svg" alt="herobar">
+          <p>Sri Jagannath Nivas,8-1-164/345/A/1, Pragati Colony, Mailardevpally, Nawab Saheb Kunta, Hyd, 500005</p>
+          </div>
+
+            <div>
+              <h4>Classes</h4>
+              <p>Classroom courses</p>
+              <p>Virtual classroom courses</p>
+              <p>E-learning courses</p>
+              <p>Video Courses</p>
+              <p>Offline Courses</p>
+              </div>
+            <div>
+              <h4>Community</h4>
+              <p>Learners</p>
+              <p>Parteners</p>
+              <p>Developers</p>
+              <p>Transactions</p>
+              <p>Blog</p>
+              </div>
+            <div>
+              <h4>Quick links</h4>
+              <p>Home</p>
+              <p>Professional Education</p>
+              <p>Courses</p>
+              <p>Admissions</p>
+              <p>Testimonial</p>
+              <p>Programs</p>
+              </div>
+              <div>
+                <h4>More</h4>
+                <p>Press</p>
+                <p>Investors</p>
+                <p>Terms</p>
+                <p>Privacy</p>
+                <p>Help</p>
+                <p>Contact</p>
+                </div>
+            </div>
+        </div>
+
+      </footer>
+
+   
+  </body>
+  </html>
